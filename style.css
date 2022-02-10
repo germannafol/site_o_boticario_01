@@ -1,0 +1,31 @@
+
+.bory{
+    font-family: 'Work Sans', sans-serif;
+    background-color: lightgrey;
+}
+.cabecalho{
+    background-color: whitesmoke;
+}
+.texto-centralizado{
+  text-align: center;  
+}
+.componente{
+    margin: 30px;
+}
+#slide1{
+    width:30%;
+    height:30%;
+    display: inline-block;
+}
+.h3{
+    text-align: justify;
+    margin-right: 50px;
+}
+/* das aulas p5
+html,body{
+    margin:0;
+    padding:0;
+}
+canvas{
+    display:block;
+}*/
