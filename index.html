@@ -2,61 +2,139 @@
 <html lang="pt-br">
 <head>
     <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>O Boticário</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <!-- trabalhar com a resolução de exibição, assim como informar ao navegador as configurações de resolução e tamanho, fazendo "caber" na tela. -->
+    <title>O Boticário - Meu Site</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'> <!-- trabalhar com a resolução de exibição, assim como informar ao navegador as configurações de resolução e tamanho, fazendo "caber" na tela. -->
     <script src="main.js"></script>
-    <link rel='stylesheet' type='text/css' media='screen' href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" media="screen" href="css/chamada.css">
+    <link rel="stylesheet" media="screen" href="css/base.css">
+    <link rel="stylesheet" media="screen" href="css/cabecalho.css">
+    <link rel="stylesheet" media="screen" href="css/disputa.css">
+    <link rel="stylesheet" media="screen" href="css/footer.css">
 
+    <!--Conjunto de fontes similares ao usado o site O Boticário : Identidade Visual-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400&display=swap" rel="stylesheet">
 
 </head>
 
-<body class="body">
-    <header class="cabecalho">
-        <!--Cabeçalho: contém logo, menus, campo de busca-->
-        <h1>O Boticário</h1>
+<body>
+    
+    <header class="cabecalho container">
+        <!-- <img src="img/ampoule-green.svg" class="cabecalho-logo-svg" alt="Logo Ampoule da Boticário"> -->
+        <div class="cabecalho-caixa">
+            <img src="img/logo.svg" class="cabecalho-logo" alt="Logo da Marca O Boticário">
+            <h1>Onde tem amor, tem beleza</h1>
+            <nav class="cabecalho-navegacao">
+                <ul class="cabecalho-lista">
+                    <li class="cabecalho-link"><a href="#">Home</a></li>
+                    <li class="cabecalho-link"><a href="#">Descubra+</a></li>
+                    <li class="cabecalho-link"><a href="#">Queridinhos</a></li>
+                    <li class="cabecalho-link"><a href="#">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <div>
-        <h2 class="texto-centralizado">Entenda TUDO sobre seus QUERIDINHOS:</h2>
-    </div>
-    <div>
-        <p>Será que você sabe sobre tudo que compõem seus amados produtos O Boticário?</p>
-        <p>Uma especialista conta tudo!</p>
-        <p>Vem conferir e ARRASE nas VENDAS!</p>
-    </div>
-    <div class="componente">
-        <img id="slide1" src="Slide1.jpg">
-        <h3 class="h3">HIDRATANTES</h3>
-        <p>Quem nunca foi salvo por um hidratante, jogue a primeira pedra. No entanto, existe uma ferramenta
-            por debaixo dos panos que faz do hidratante uma ferramenta poderosa para a saúde da pele.<br>
-            Você vai descobrir hoje...<br>
-            Antes de mais nada! Qual a diferença de um hidratante para um óleo corporal?<br>
-            Com um pensamento rápido, você poderia dizer que <strong>NÃO</strong> tem diferença, mas está errado. Principalmente
-            falar que o óleo corporal é similar ao hidratante. Isso está muito errado.<br>
-            Vamos direto a explicação: a maior propiedade do óleo é criar uma pelicula (oleosa) sobre a pele. Assim,
-            impedindo que a água da própia pele evapore gerando o resecamento.<br>
-            <br>
-            O hidratante, além de formar essa película que evita a água de evaporar, ele também fornece mais água para a 
-            pele. Ou seja, ele hidrata.<br>
-            <p>(Aqui explicar o motivo de usar o hidratante, quais circustâncias é melhor usar)</p>
-            <p>(Aqui falar pela a primeira vez da substância UMECTANTE e como a quantidade dele influência na leveza do hidratante</p> 
-
-        </p>
-        
-    </div>
-    <div>
-        <h3 class="h3">SABONETES</h3>
-    </div>
-    <div>
-        <h3 class="h3">PERFUMES</h3>
-    </div>
-   <!--Das aulas com p5:   -->
-   <!--Das aulas com sublime: <canvas width="600" height="600"></canvas>-->
+    <main>
+        <section class="chamada container">
+            <h2 class="chamada-titulo ">Você é a especialista</h2>
+        </section>
+        <section class="chamada container">
+            <h2 class="chamada-titulo titulo-2">Você sabe a diferença entre</h2>
+        </section>
+        <section class="disputa container sombra caixa-pergunta">
+            <ul class="disputa-lista">
+                <li class="disputa-item">
+                    <p class="disputa-titulo pergunta">Na hora da venda, você sabe explicar a diferença de cada produto para o cliente? <br> Não?<br>
+                        Vem aqui, eu te explico!</p>
+                </li>
+            </ul>
+        </section>
+        <section class="disputa container sombra">
+            <ul class="disputa-lista">
+                <li class="disputa-item">
+                    <p class="disputa-titulo">Óleo</p>
+                    <div class="disputa-caixa sombra">
+                        <img src="img/oleo_ameixa.png" width="163" height="166" alt="Imagem do Óleo de ameixa Negra- Linha Boticário" class="disputa-imagem esquerdo">
+                        <p class="disputa-descricao">A maior propriedade do óleo é criar uma película (oleosa) sobre a pele. Assim, impedindo que a água da própria pele evapore gerando o ressecamento.<br> <br>O diferencial desse produto, além do incrível e concentrado poder do <strong>óleo de quinoa </strong>conjuntamente a <strong>vitamina E (Tocoferol)</strong> . É a presença da substância <strong>LAURETH-2</strong> em sua composição, que ajuda a penetração do óleo na pele, causando um poderoso efeito de cuidado.</p>
+                    </div>
+                </li>
+                <li class="disputa-item">
+                    <p class="disputa-titulo">Hidratante</p>
+                    <div class="disputa-caixa sombra">
+                        <img src="img/hidratante-ameixa.png" width="163" height="163" alt="Imagem do Hidratante de ameixa Negra- Linha Boticário" class="disputa-imagem direito">
+                        <p class="disputa-descricao">O hidratante, além de formar essa película que evita a água de evaporar, ele também fornece mais água para a pele. Mas quais são as substâncias que fazem esse hidratante tão poderoso? <br><br>O <strong>óleo de quinoa </strong>não poderia faltar aqui, mas outro componente que faz a diferença é o <strong>ISOHEXADECANE</strong> que tem uma forte capacidade de reter a água na pele e proporciona uma sensação de pele sequinha e aveludada. Além disso, ainda tem o <strong>ACRYLATES</strong> que forma o filme na pele, impedindo que a água evapore .</p>
+                    </div>
+                </li>
+            </ul>
+            <section>
+                <button type="button"  class="botao"> Descubra+
+                </button>
+            </section>
+        </section>
+        <section class="disputa container sombra">
+            <ul class="disputa-lista">
+                <li class="disputa-item">
+                    <p class="disputa-titulo">Creme para pentear</p>
+                    <div class="disputa-caixa sombra">
+                        <img src="img/NSPA-Ameixa.png" width="163" height="166" alt="Imagem do Óleo de ameixa Negra- Linha Boticário" class="disputa-imagem esquerdo">
+                        <p class="disputa-descricao">A maior propriedade do óleo é criar uma película (oleosa) sobre a pele. Assim, impedindo que a água da própria pele evapore gerando o ressecamento.<br> <br>O diferencial desse produto, além do incrível e concentrado poder do <strong>óleo de quinoa </strong>conjuntamente a <strong>vitamina E (Tocoferol)</strong> . É a presença da substância <strong>LAURETH-2</strong> em sua composição, que ajuda a penetração do óleo na pele, causando um poderoso efeito de cuidado.</p>
+                    </div>
+                </li>
+                <li class="disputa-item">
+                    <p class="disputa-titulo">Leave-in</p>
+                    <div class="disputa-caixa sombra">
+                        <img src="img/MATCH-LEAV-CAP-PROT-COR-150ml-B48522_.jpg" width="163" height="163" alt="Imagem do Hidratante de ameixa Negra- Linha Boticário" class="disputa-imagem direito">
+                        <p class="disputa-descricao">O hidratante, além de formar essa película que evita a água de evaporar, ele também fornece mais água para a pele. Mas quais são as substâncias que fazem esse hidratante tão poderoso? <br><br>O <strong>óleo de quinoa </strong>não poderia faltar aqui, mas outro componente que faz a diferença é o <strong>ISOHEXADECANE</strong> que tem uma forte capacidade de reter a água na pele e proporciona uma sensação de pele sequinha e aveludada. Além disso, ainda tem o <strong>ACRYLATES</strong> que forma o filme na pele, impedindo que a água evapore .</p>
+                    </div>
+                </li>
+            </ul>
+            <section>
+                <button type="button"  class="botao"> Descubra+
+                </button>
+            </section>
+        </section>
+        <section class="disputa container sombra">
+            <ul class="disputa-lista">
+                <li class="disputa-item">
+                    <p class="disputa-titulo">Serúm</p>
+                    <div class="disputa-caixa sombra">
+                        <img src="img/serum-capilar-match.png" width="163" height="166" alt="Imagem do Óleo de ameixa Negra- Linha Boticário" class="disputa-imagem esquerdo">
+                        <p class="disputa-descricao">A maior propriedade do óleo é criar uma película (oleosa) sobre a pele. Assim, impedindo que a água da própria pele evapore gerando o ressecamento.<br> <br>O diferencial desse produto, além do incrível e concentrado poder do <strong>óleo de quinoa </strong>conjuntamente a <strong>vitamina E (Tocoferol)</strong> . É a presença da substância <strong>LAURETH-2</strong> em sua composição, que ajuda a penetração do óleo na pele, causando um poderoso efeito de cuidado.</p>
+                    </div>
+                </li>
+                <li class="disputa-item">
+                    <p class="disputa-titulo">Finalizador</p>
+                    <div class="disputa-caixa sombra">
+                        <img src="img/finalizador-brilho-50-ml-match.png" width="163" height="163" alt="Imagem do Hidratante de ameixa Negra- Linha Boticário" class="disputa-imagem direito">
+                        <p class="disputa-descricao">O hidratante, além de formar essa película que evita a água de evaporar, ele também fornece mais água para a pele. Mas quais são as substâncias que fazem esse hidratante tão poderoso? <br><br>O <strong>óleo de quinoa </strong>não poderia faltar aqui, mas outro componente que faz a diferença é o <strong>ISOHEXADECANE</strong> que tem uma forte capacidade de reter a água na pele e proporciona uma sensação de pele sequinha e aveludada. Além disso, ainda tem o <strong>ACRYLATES</strong> que forma o filme na pele, impedindo que a água evapore .</p>
+                    </div>
+                </li>
+            </ul>
+            <section>
+                <button type="button"  class="botao"> Descubra+
+                </button>
+            </section>
+        </section>
+    </main>
 </body>
-
+<footer class="rodape container">
+    <img src="img/ampoule-green.svg" class="rodape_logo">
+    <p class="copyright">&copy; Copyright Germanna Oliveira - 2022</p>
+    <ul class="rodape__social">
+        <li><a href="#" class="rodape__midia"><img src="img/facebook.png" alt="Ícone do Facebook"></a></li>
+        <li><a href="#" class="rodape__midia"><img src="img/instagram.png" alt="Ícone do instagram"></a></li>
+        <li><a href="#" class="rodape__midia"><img src="img/twitter.png" alt="Ícone do twitter"></a></li>
+    </ul>
+    <nav>
+        <ul class="rodape__navegacao">
+            <li class="rodape__link"><a href="#">Home</a></li>
+            <li class="rodape__link"><a href="#">Descubra+</a></li>
+            <li class="rodape__link"><a href="#">Queridinhos</a></li>
+            <li class="rodape__link"><a href="#">Sobre</a></li>
+        </ul>
+    </nav>
+</footer>
 
 </html>
