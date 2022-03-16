@@ -4,9 +4,9 @@
 
 - Com informações relevantes sobre os excipientes presentes nas formulações dos principais produtos.
 
-- As informações são baseadas nos meus conhecimento acadêmicos e profissional como Farmacêutica e apreseta respaudo técnico.
+- As informações são baseadas nos meus conhecimento acadêmicos e profissional como Farmacêutica e apresenta respaldo técnico.
 
-- O intuito deste projeto é fornecer uma fonte rápida, acessível e tecnica para os reendedores dos produtos.
+- O intuito deste projeto é fornecer uma fonte rápida, acessível e técnica para os revendedores dos produtos do Grupo OBoticário.
 
 - Dessa forma, agregando valor as vendas e permitindo uma visão global sobre as principais diferenças entre os concorrentes no mercado.
 
