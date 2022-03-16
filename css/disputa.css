@@ -1,0 +1,77 @@
+.disputa{
+    margin: 30px auto;
+    border: solid 0.1rem #fff;
+    width: 940px;
+    padding: 0 0 0 0;
+    border-radius: 5px;
+    
+}
+.disputa-lista{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+.disputa-caixa{
+    text-align: center;
+    display: flex;
+    border: solid 0.01rem #fff;
+    height: 16.2rem;
+    width: 18.1rem;
+    padding: 2rem;
+    margin: 1.5rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: stretch;
+    border-radius: 6px;
+}
+.disputa-item{
+    text-align: center;
+}
+.disputa-titulo{
+    margin: 15px 0;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 3px;
+    color: var(--basica-fonte-cinza);
+}
+.disputa-imagem{
+    position: absolute;
+}
+
+.disputa-descricao{
+    position: relative;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    width: max-content;
+    opacity: 0;
+}  
+.disputa-descricao:hover{
+    background-color: var(--basica-cinza-claro);
+    opacity:0.9;
+}
+.esquerdo{
+    right: 59%;
+}
+.direito{
+    right: 29%;
+}
+strong{
+    font-weight: bold;
+}
+.caixa-pergunta{
+    background: #8cb29ecf;
+    padding: 0;
+    box-shadow: none;
+    border-radius: 5px;
+}
+.pergunta{
+    font-size: 1.1rem;
+    text-align: initial;
+    text-transform: uppercase;
+    text-shadow: 0 0 #fff;
+    line-height: 1.4rem;
+    color:#fff;
+    font-family:system-ui;
+    font-weight: bold;
+}    

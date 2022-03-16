@@ -1,0 +1,70 @@
+
+:root{
+    --basica-branco:#FFF;
+    --basica-azul-claro: #DFE3E5;
+    --basica-vermelho-forte: #B72E2E;
+    --basica-cinza-escuro: #4F4C4C;
+    --basica-cinza-claro: #F7F4F4;
+    --basica-cinza-medio: #D9D9D9;
+        
+    --basica-fonte-link: #0084FF;
+    --basica-fonte-cinza: #666;
+    --basica-borda-cabecalho-mobile: #103D4A;
+    --basica-bg-rodape: #333;
+    --basica-bg-chamada-mobile: #00161C;
+
+    --logo-boticario-azul-acinzentado-70:#65987C;
+    --logo-boticario-verde-mar-20: #007E78;
+    --logo-boticario-cinza-contraste-10:#606060;
+
+    --font-family: 'Work Sans', sans-serif;
+    
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    /* padding-left: 23.5%;
+    padding-right: 23.5%; */
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-top: 1.75rem;
+    padding-left: 22.5%;
+    padding-right: 22.5%; */
+}
+.ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sombra{
+    box-shadow: 0 0px 21px #ababab7a;
+}
+.botao{
+    text-align: center;
+    background: #65987cbd;
+    display: block;
+    width: 100%;
+    max-width: 367px;
+    box-sizing: border-box;
+    padding: 1rem 6.5rem;
+    border: 1px solid #FFF;
+    border-radius: 17px;
+    color: #fff;
+    font-size: 2rem;
+    margin: 2rem;
+    font-weight: bold;
+}
+.botao:hover {
+    transition: 2s;
+    background-color: var(--logo-boticario-verde-mar-20);
+    /*  */
+}  
+
+/* .botao:active {
+    box-shadow: inset -2px -2px 8px rgba(185, 9, 9, 0.6),
+                inset 2px 2px 8px rgba(122, 101, 101, 0.6);
+} */

@@ -1,0 +1,26 @@
+.chamada-titulo{
+    text-align: center;
+    color: #fff;
+    font-weight: 1rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: system-ui;
+    font-size: xx-large;
+    padding: 1rem;
+    
+    background-color: #65987ce0;
+    
+    width: 100%;
+    /*box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+
+    padding-top: 1.75rem;
+    /* border-bottom: 1px solid var(--logo-boticario-cinza-contraste-10); */
+    padding-left: 22.5%;
+    padding-right: 22.5%;
+}
+.titulo-2{
+    background-color:#65987cbd;
+}
