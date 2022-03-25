@@ -35,6 +35,10 @@
     padding: 3px;
     color: var(--basica-fonte-cinza);
 }
+
+.setor-disputa{
+    font-size: 30px !important;
+}
 .disputa-imagem{
     position: absolute;
 }
